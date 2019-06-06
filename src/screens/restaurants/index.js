@@ -1,9 +1,12 @@
 import React, { Fragment } from 'react';
 import ListRestaurants from "../../components/list_restaurants";
+import Categories from "../../components/categories";
+
 
 const Restaurants = () => (
   <Fragment>
-    <b>Testing</b>
+    <Categories />
+    <ListRestaurants />
   </Fragment>
 );
 
